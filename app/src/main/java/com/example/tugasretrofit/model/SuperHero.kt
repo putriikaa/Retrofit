@@ -3,7 +3,7 @@ package com.example.tugasretrofit.model
 import com.google.gson.annotations.SerializedName
 
 data class SuperHeroModel(
-	@SerializedName("results")
+	@SerializedName("result")
 	val `results`: List<SuperHeroData>
 )
 
